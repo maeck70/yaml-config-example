@@ -1,0 +1,23 @@
+# config file
+# uses example.schema.yaml
+
+metadata:
+  schema: example.schema.yaml
+data:
+  Name: Marcel
+  City: Walnut Creek
+  Id: 12345
+  Options:
+    - Foo
+    - Bar
+  Rabbitmq:
+    main:
+      host: localhost
+      user: guest
+      password: guest
+    baskets: 
+      host: localhost
+      port: 5672
+      user: guest
+      password: guest
+      vhost: /baskets
