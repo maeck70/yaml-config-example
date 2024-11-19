@@ -2,7 +2,9 @@
 # uses example.schema.yaml
 
 metadata:
-  schema: example.schema.yaml
+  schema_version: 0.1example
+  id: ExampleConfig
+
 data:
   Name: Marcel
   City: Walnut Creek
